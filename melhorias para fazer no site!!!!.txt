@@ -1,0 +1,45 @@
+-----------mudanças para fazer no site-------------- 
+
+
+-Se possível, mudar a cor para preto e rosa; 
+
+-Adicionar o Título completo da loja no topo da página "Trend - Beleza e Utilidades" 
+
+-Colocar uma mensagem dizendo "Atendimento via WhatsApp e Facebook" no início do site
+
+- Botão "Home" e "Contatos" não funciona  
+
+-Quando aumenta a quantidade de produtos desejados, o alor não muda junto 
+
+-Tem várias imagens do produto no site, mas quando clica não abre  
+
+-A seção "Outros Produtos" não direciona pro produto certo quando clica em "Ver detalhes" 
+
+-A seção "Outros Produtos" não direciona pro produto certo quando clica em "Eu quero" também
+
+-Na lateral esquerda ta faltando assento pra bike e o elástico 
+
+-O botão "Avaliações" não funciona. Talvez tirá-lo (??) 
+
+-Editar o número do whatsapp quando clica em "Eu quero" (tirar aquele 5555555555555) 
+
+-Trabalhar na descrição dos produtos 
+
+-Ajustar/melhorar o final da página, o rodapé do site
+
+-ESTÁ DANDO COmO NÚmERO INVÁLIDO NA HORA DE INICIAR A CONVERSA 
+(Nem pelo pc nem pelo celular, está dando que o número não está no whatsapp, ver qual é o bug)
+(Testei pelo link que coloquei na pagina e deu certo. O bug está no site mesmo!!!) 
+(Talvez seja pq ta faltando o 9 ) 
+
+
+
+
+
+
+
+
+
+
+
+
