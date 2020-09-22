@@ -88,11 +88,11 @@
 
             <br>
             <!-- <div class="container"> -->
-                <div class="row">
-                    <div class="col-12 text-center mt-5">
-                        <h3> Atendimento via <a htref="https://api.whatsapp.com/send?phone=553592740449">WhatsApp</a> e
-                            <a href="https://www.facebook.com/trend.shop8">Facebook</a></h3>
-                    </div>
+            <div class="row">
+                <div class="col-12 text-center mt-5">
+                    <h3> Atendimento via <a htref="https://api.whatsapp.com/send?phone=553592740449">WhatsApp</a> e
+                        <a href="https://www.facebook.com/trend.shop8">Facebook</a></h3>
+                </div>
                 <!-- </div> -->
             </div>
             <div class="single-product-area">
@@ -176,13 +176,13 @@
                                     <div class="col-sm-6">
                                         <div class="product-images">
                                             <div class="product-main-img">
-                                                <img src="img/cesta.jpg" alt="">
+                                                <img class="img-modal" src="img/cesta.jpg" alt="">
                                             </div>
 
                                             <div class="product-gallery">
-                                                <img src="img/cestaBonita.jpg" alt="cesta-1">
-                                                <img src="img/cestaL.jpg" alt="cesta-2">
-                                                <img src="img/cestaVarias.webp" alt="cesta-3">
+                                                <img class="img-modal" src="img/cestaBonita.jpg" alt="cesta-1">
+                                                <img class="img-modal" src="img/cestaL.jpg" alt="cesta-2">
+                                                <img class="img-modal" src="img/cestaVarias.webp" alt="cesta-3">
                                             </div>
                                         </div>
                                     </div>
@@ -227,11 +227,12 @@
                                                     <div role="tabpanel" class="tab-pane fade in active" id="home">
                                                         <h2>Descrição do Produto</h2>
                                                         <p>Facilite sua cozinha usando os utensílios corretos!
-                                                        Com o Escorredor multiuso você escorre a água de maneira muito fácil e segura!
-                                                        Sem desperdício e dificuldade!
-                                                        Resistente e não possuí porosidades!
-                                                        Você e sua cozinha merecem!
-                                                        50% de desconto!
+                                                            Com o Escorredor multiuso você escorre a água de maneira
+                                                            muito fácil e segura!
+                                                            Sem desperdício e dificuldade!
+                                                            Resistente e não possuí porosidades!
+                                                            Você e sua cozinha merecem!
+                                                            50% de desconto!
                                                         </p>
 
                                                         <p>Nos chame no <a
@@ -275,7 +276,7 @@
                     <div class="related-products-wrapper col-12">
                         <h2 class="related-products-title">Outros produtos</h2>
                         <div class="related-products-carousel">
-<!--
+                            <!--
                             <div class="single-product">
                                 <div class="product-f-image">
                                     <img src="img/cesta.jpg" alt="">
@@ -447,14 +448,14 @@
                             <div class="footer-about-us">
                                 <h2>T<span>rend</span></h2>
                                 <!-- <p>Nossa loja vem com a novida e tudo mais texto grantde</p> -->
-                                  <div class="footer-social text-left">
-                                        <a href="https://www.facebook.com/trend.shop8" target="_blank"><i
-                                                class="fa fa-facebook"></i></a>
-                                        <a href="https://www.instagram.com/aft.ecom/" target="_blank"><i
-                                                class="fa fa-instagram"></i></a>
-                                        <a href="https://api.whatsapp.com/send?phone=553592740449" target="_blank"><i
-                                                class="fa fa-whatsapp"></i></a>
-                                    </div>
+                                <div class="footer-social text-left">
+                                    <a href="https://www.facebook.com/trend.shop8" target="_blank"><i
+                                            class="fa fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/aft.ecom/" target="_blank"><i
+                                            class="fa fa-instagram"></i></a>
+                                    <a href="https://api.whatsapp.com/send?phone=553592740449" target="_blank"><i
+                                            class="fa fa-whatsapp"></i></a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-5 col-sm-5">
@@ -499,22 +500,55 @@
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" data-dismiss="modal">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal"><span
+                                    aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <img src="" class="imagepreview" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <!-- Latest jQuery form server -->
-            <script src="https://code.jquery.com/jquery.min.js"></script>
+                <!-- Latest jQuery form server -->
+                <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" data-dismiss="modal">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal"><span
+                                    aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <img src="" class="imagepreview" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <!-- Bootstrap JS form CDN -->
-            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+                <!-- Latest jQuery form server -->
+                <script src="https://code.jquery.com/jquery.min.js"></script>
+                <script src="/js/script.js"></script>
 
-            <!-- jQuery sticky menu -->
-            <script src="js/owl.carousel.min.js"></script>
-            <script src="js/jquery.sticky.js"></script>
+                <!-- Bootstrap JS form CDN -->
+                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-            <!-- jQuery easing -->
-            <script src="js/jquery.easing.1.3.min.js"></script>
+                <!-- jQuery sticky menu -->
+                <script src="js/owl.carousel.min.js"></script>
+                <script src="js/jquery.sticky.js"></script>
 
-            <!-- Main Script -->
-            <script src="js/main.js"></script>
+                <!-- jQuery easing -->
+                <script src="js/jquery.easing.1.3.min.js"></script>
+
+                <!-- Main Script -->
+                <script src="js/main.js"></script>
+                <script>
+                    $('.img-modal').on('click', function () {
+                        $('.imagepreview').attr('src', $(this).attr('src'));
+                        $('#imagemodal').modal('show');
+                    });   
+                </script>
 </body>
 
 </html>

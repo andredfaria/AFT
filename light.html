@@ -176,12 +176,12 @@
                                     <div class="col-sm-6">
                                         <div class="product-images">
                                             <div class="product-main-img">
-                                                <img src="img/light.jpeg" alt="light">
+                                                <img  class="img-modal" src="img/light.jpeg" alt="light">
                                             </div>
 
                                             <div class="product-gallery">
-                                                <img src="img/light1.jpeg" alt="light-1">
-                                                <img src="img/light3.jpeg" alt="light-2">
+                                                <img  class="img-modal" src="img/light1.jpeg" alt="light-1">
+                                                <img  class="img-modal" src="img/light3.jpeg" alt="light-2">
                                             </div>
                                         </div>
                                     </div>
@@ -509,7 +509,13 @@
             <script src="js/jquery.easing.1.3.min.js"></script>
 
             <!-- Main Script -->
-            <script src="js/main.js"></script>
+             <script src="js/main.js"></script>
+                <script>                    
+                  $('.img-modal').on('click', function() {
+                        $('.imagepreview').attr('src', $(this).attr('src'));
+                        $('#imagemodal').modal('show');   
+                    });   
+                </script>
 </body>
 
 </html>
