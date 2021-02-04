@@ -190,6 +190,10 @@
                                                 <button class="add_to_cart_button" type="submit"> Eu Quero !!!!
                                                 </button>
                                             </form>
+                                            <form action="mercadoPago.php" method="post" name="login" id="login-form">
+                                                <input type="hidden" name="valor" value="35">
+                                                <button class="btn-mercado-pago"> Pagar com o mercado pago</button>
+                                            </form>
 
                                             <div class="product-inner-category">
                                                 <p>Category: <a href="">Utilidades</a>. Tags: <a href="">Casa</a>, <a
@@ -493,6 +497,16 @@
                     $('.imagepreview').attr('src', $(this).attr('src'));
                     $('#imagemodal').modal('show');
                 });
+
+                $('#btn-mercado-pago').click, function () {
+                    $.ajax({
+                        url: "mercadoPago.php",
+                        context: document.body
+                    }).done(function () {
+                        $(this).addClass("done");
+                    });
+                }
+
             </script>
 </body>
 
